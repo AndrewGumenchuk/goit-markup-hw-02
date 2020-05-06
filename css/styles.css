@@ -96,3 +96,13 @@ ul {
 .section-headline {
   color: var(--secondary-text-color);
 }
+
+/* Portfolio.html */
+
+.section-features a {
+  color: var(--primary-text-color);
+}
+.section-features a:hover,
+.section-features a:focus {
+  color: var(--accent-color);
+}
