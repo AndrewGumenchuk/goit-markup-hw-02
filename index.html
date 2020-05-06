@@ -13,12 +13,12 @@
         <a href="/" class="logo"> Web Studio </a>
         <ul class="site-nav">
           <li><a class="link" href="">Студия</a></li>
-          <li><a class="link" href="">Портфолио</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
-        <ul>
+        <ul class="contact">
           <li>
-            <a href="mailto:info@devstudio.com">
+            <a class="link" href="mailto:info@devstudio.com">
               <img
                 src="./images/envelope (hover).svg"
                 alt="почта"
@@ -26,7 +26,7 @@
             </a>
           </li>
           <li>
-            <a href="tel:+380961111111">
+            <a class="link" href="tel:+380961111111">
               <img src="./images/Vector.svg" alt="телефон" />+38 096 111 11 11
             </a>
           </li>
@@ -36,20 +36,20 @@
 
     <main>
       <!--Hero-->
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button">Заказать услугу</a>
       </section>
-      <!--Activities-->
-      <section>
-        <h2>Приемущества</h2>
+      <!--Features-->
+      <section class="section">
+        <!-- <h2 class="section-title">Приемущества</h2> -->
         <ul>
           <li>
             <a href="">
               <img src="./images/antenna_1.svg" alt="Спутниковая антена" />
             </a>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="section-subtitle">Внимание к деталям</h3>
+            <p class="section-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -58,8 +58,8 @@
             <a href="">
               <img src="./images/clock_1.svg" alt="Часы" />
             </a>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="section-subtitle">Пунктуальность</h3>
+            <p class="section-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -68,8 +68,8 @@
             <a href="">
               <img src="./images/diagram_1.svg" alt="Диаграмма" />
             </a>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="section-subtitle">Планирование</h3>
+            <p class="section-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -78,16 +78,16 @@
             <a href="">
               <img src="./images/astronaut_1.svg" alt="астронафт" />
             </a>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="section-subtitle">Современные технологии</h3>
+            <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href="">
@@ -96,7 +96,7 @@
                 alt="Ноутбук"
                 width="380"
               />
-              <p>Десктопные приложения</p>
+              <p class="section-caption">Десктопные приложения</p>
             </a>
           </li>
           <li>
@@ -106,7 +106,7 @@
                 alt="Смартфон"
                 width="380"
               />
-              <p>Мобильные приложения</p>
+              <p class="section-caption">Мобильные приложения</p>
             </a>
           </li>
           <li>
@@ -116,19 +116,19 @@
                 alt="Дизайн сайта"
                 width="380"
               />
-              <p>Дизайнерские решения</p>
+              <p class="section-caption">Дизайнерские решения</p>
             </a>
           </li>
         </ul>
       </section>
 
       <!--Team-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
-            <h3>John Smith</h3>
-            <p>Product Designer</p>
+            <h3 class="section-heading">John Smith</h3>
+            <p class="section-headline">Product Designer</p>
             <img src="./images/John_Smith.jpg" alt="John Smith на фото" />
             <ul>
               <li>
@@ -161,8 +161,8 @@
           </li>
 
           <li>
-            <h3>Marta Stewart</h3>
-            <p>Frontend Developer</p>
+            <h3 class="section-heading">Marta Stewart</h3>
+            <p class="section-headline">Frontend Developer</p>
             <img src="./images/Marta_Stewart.jpg" alt="Marta Stewart на фото" />
             <ul>
               <li>
@@ -201,8 +201,8 @@
           </li>
 
           <li>
-            <h3>Robert Jakis</h3>
-            <p>Marketing</p>
+            <h3 class="section-heading">Robert Jakis</h3>
+            <p class="section-headline">Marketing</p>
             <img src="./images/Robert_Jakis.jpg" alt="Robert Jakis на фото" />
             <ul>
               <li>
@@ -241,8 +241,8 @@
           </li>
 
           <li>
-            <h3>Martin Doe</h3>
-            <p>UI Designer</p>
+            <h3 class="section-heading">Martin Doe</h3>
+            <p class="section-headline">UI Designer</p>
             <img src="./images/Martin_Doe.jpg" alt="Martin Doe на фото" />
             <ul>
               <li>
@@ -277,8 +277,8 @@
       </section>
 
       <!--Clients-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="">

@@ -2,22 +2,32 @@
 
 /* secondary text color #757575 */
 
-/* background color #FFFFFF* /
+/* background color #FFFFFF * /
 
 /* secondary background color #F5F4FA */
 
-/* accent #2196F3* /
+/* accent color #2196F3 * /
 
-/* color of social networks in the section Наша команда and Постоянные клиенты #AFB1B8* /
+/* color of social networks in the section Наша команда and Постоянные клиенты #AFB1B8*  /
 
-/* footer navigation color rgba(255, 255, 255, 0.6)* /
+/* footer navigation color rgba(255, 255, 255, 0.6) * /
 
 /* coryright color rgba(255, 255, 255, 0.4) */
 
-/* body */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --footer-navigation-color: rgba(255, 255, 255, 0.6);
+  --copyright-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Body */
 body {
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
 }
 
 /* ul */
@@ -25,21 +35,64 @@ ul {
   list-style: none;
 }
 
-/* logo */
+/* Logo */
 .logo {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .logo:hover,
 .logo:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/* site-nav */
+/* Site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* Contact */
+.contact .link {
+  color: var(--secondary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--background-color);
+}
+
+/* Button */
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+.sectional-title {
+  color: var(--primary-text-color);
+}
+
+.sectional-subtitle {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--secondary-text-color);
+}
+
+.section-caption {
+  color: var(--background-color);
+}
+
+.section-heading {
+  color: var(--primary-text-color);
+}
+.section-headline {
+  color: var(--secondary-text-color);
 }
