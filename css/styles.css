@@ -1,0 +1,45 @@
+/* main text color #212121 */
+
+/* secondary text color #757575 */
+
+/* background color #FFFFFF* /
+
+/* secondary background color #F5F4FA */
+
+/* accent #2196F3* /
+
+/* color of social networks in the section Наша команда and Постоянные клиенты #AFB1B8* /
+
+/* footer navigation color rgba(255, 255, 255, 0.6)* /
+
+/* coryright color rgba(255, 255, 255, 0.4) */
+
+/* body */
+body {
+  color: #212121;
+  background-color: #ffffff;
+}
+
+/* ul */
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: #212121;
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active {
+  color: #2196f3;
+}
