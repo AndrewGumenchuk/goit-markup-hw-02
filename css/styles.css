@@ -36,11 +36,11 @@ ul {
 }
 
 /* Logo */
-.logo {
+.page-header .logo {
   color: var(--primary-text-color);
 }
-.logo:hover,
-.logo:focus {
+
+.page-header .logo:focus {
   color: var(--accent-color);
 }
 
@@ -74,11 +74,14 @@ ul {
 }
 
 /* Section */
-.sectional-title {
+.section-title {
   color: var(--primary-text-color);
 }
+.section-title:focus {
+  color: var(--accent-color);
+}
 
-.sectional-subtitle {
+.section-subtitle {
   color: var(--primary-text-color);
 }
 
@@ -97,12 +100,43 @@ ul {
   color: var(--secondary-text-color);
 }
 
+/* Footer */
+.footer .logo {
+  color: var(--background-color);
+}
+.footer .logo:focus {
+  color: var(--accent-color);
+}
+.footer .adress {
+  color: var(--background-color);
+}
+.phone .link {
+  color: var(--footer-navigation-color);
+}
+.footer .title {
+  color: var(--background-color);
+}
+.footer .copyright {
+  color: var(--copyright-color);
+}
+
 /* Portfolio.html */
 
-.section-features a {
+.features .link {
   color: var(--primary-text-color);
 }
-.section-features a:hover,
-.section-features a:focus {
+.features .link:hover,
+.features .link:focus {
+  color: var(--accent-color);
+}
+
+.benefits .title {
+  color: var(--primary-text-color);
+}
+.benefits .text {
+  color: var(--secondary-text-color);
+}
+.benefits .title:hover,
+.benefits .title:focus {
   color: var(--accent-color);
 }
