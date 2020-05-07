@@ -110,7 +110,7 @@ ul {
 .footer .adress {
   color: var(--background-color);
 }
-.phone .link {
+.footer .link {
   color: var(--footer-navigation-color);
 }
 .footer .title {
