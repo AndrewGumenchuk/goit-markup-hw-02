@@ -101,7 +101,7 @@ button {
   font-family: inherit;
 }
 button:hover,
-:focus {
+button:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
