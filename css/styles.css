@@ -8,8 +8,6 @@
 
 /* accent color #2196F3 * /
 
-/* color of social networks in the section Наша команда and Постоянные клиенты #AFB1B8*  /
-
 /* footer navigation color rgba(255, 255, 255, 0.6) * /
 
 /* coryright color rgba(255, 255, 255, 0.4) */
@@ -37,6 +35,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Logo */
 .logo {
   color: var(--primary-text-color);
@@ -44,7 +46,10 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
+}
+
+.logo .accent {
+  color: var(--accent-color);
 }
 
 .logo:focus {
@@ -58,7 +63,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -73,7 +77,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -89,7 +92,6 @@ ul {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 /* Button */
@@ -112,7 +114,6 @@ button:hover,
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 .button:focus {
   color: var(--accent-color);
@@ -179,7 +180,6 @@ button:hover,
   background-color: #cccccc;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 
 .footer .title {
@@ -199,21 +199,23 @@ button:hover,
 
 /* Portfolio.html */
 
-.features .link {
+.filter .title {
   color: var(--primary-text-color);
-}
-.features .link:hover,
-.features .link:focus {
-  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.benefits .title {
-  color: var(--primary-text-color);
-}
-.benefits .text {
+.filter .text {
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
-.benefits .title:hover,
-.benefits .title:focus {
-  color: var(--accent-color);
+
+.filter .description {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  font-size: 18px;
+  line-height: 1.56;
 }
