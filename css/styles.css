@@ -68,6 +68,16 @@ ul {
 }
 
 /* Button */
+button {
+  color: var(--primary-text-color);
+  background-color: var(---secondary-background-color);
+}
+button:hover,
+:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+
 .button {
   color: var(--background-color);
   background-color: var(--accent-color);
