@@ -41,9 +41,9 @@ ul {
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   text-decoration: none;
 }
 
@@ -54,6 +54,11 @@ ul {
 /* Site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -64,20 +69,34 @@ ul {
 /* Contact */
 .contact .link {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact .link:hover,
 .contact .link:focus {
   color: var(--accent-color);
 }
+
 /* Hero */
 .hero-title {
   color: var(--background-color);
+  background-color: #cccccc;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Button */
 button {
   color: var(--primary-text-color);
   background-color: var(---secondary-background-color);
+  font-family: inherit;
 }
 button:hover,
 :focus {
@@ -88,53 +107,94 @@ button:hover,
 .button {
   color: var(--background-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.button:focus {
+  color: var(--accent-color);
 }
 
 /* Section */
 .section-title {
-  color: var(--primary-text-color);
-}
-.section-title:focus {
-  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .section-subtitle {
-  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .section-text {
   color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .section-caption {
   color: var(--background-color);
+  background-color: #cccccc;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .section-heading {
-  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
+
 .section-headline {
   color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* Footer */
 .footer .logo {
   color: var(--background-color);
+  background-color: #cccccc;
 }
 .footer .logo:focus {
   color: var(--accent-color);
 }
+
 .footer .adress {
   color: var(--background-color);
+  background-color: #cccccc;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .footer .link {
   color: var(--footer-navigation-color);
+  background-color: #cccccc;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
+
 .footer .title {
   color: var(--background-color);
+  background-color: #cccccc;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .footer .copyright {
   color: var(--copyright-color);
+  background-color: #cccccc;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Portfolio.html */
